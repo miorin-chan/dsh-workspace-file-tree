@@ -1,0 +1,5 @@
+# Activates the bundle. The Host half is inert; the Client half ships through
+# package.json `dsh.client` and carries Workspace File Tree.
+- insert:
+    - id: dsh-workspace-file-tree
+      name: 'dsh-workspace-file-tree'
