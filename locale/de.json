@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Workspace File Tree",
-    "description": "Groups registered workspaces by their directory ancestry."
+    "title": "Verzeichnisbaum für Arbeitsbereiche",
+    "description": "Ergänzt den Arbeitsbereichswechsler um einen Verzeichnisbaum. Registrierte Arbeitsbereiche erscheinen unter ihren gemeinsamen Ordnern."
   }
 }

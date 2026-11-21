@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Workspace File Tree",
-    "description": "Groups registered workspaces by their directory ancestry."
+    "title": "Дерево каталогов рабочих пространств",
+    "description": "Добавляет группировку по дереву каталогов в переключателе рабочих пространств. Зарегистрированные пространства объединяются по общим папкам."
   }
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Workspace File Tree",
-    "description": "Groups registered workspaces by their directory ancestry."
+    "title": "Árvore de diretórios dos espaços de trabalho",
+    "description": "Adiciona uma vista em árvore ao seletor de espaços de trabalho. Os espaços registados são agrupados nas suas pastas comuns."
   }
 }

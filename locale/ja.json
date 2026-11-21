@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Workspace File Tree",
-    "description": "Groups registered workspaces by their directory ancestry."
+    "title": "ワークスペースのディレクトリツリー",
+    "description": "ワークスペース切り替えツールにディレクトリツリー表示を追加し、登録済みのワークスペースを共通のフォルダーにまとめます。"
   }
 }

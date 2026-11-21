@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Workspace File Tree",
-    "description": "Groups registered workspaces by their directory ancestry."
+    "title": "Arborescence des espaces de travail",
+    "description": "Ajoute une vue en arborescence au sélecteur d’espaces de travail. Les espaces enregistrés sont regroupés sous leurs dossiers communs."
   }
 }

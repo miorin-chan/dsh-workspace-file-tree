@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Workspace File Tree",
-    "description": "Groups registered workspaces by their directory ancestry."
+    "title": "Workspace file tree",
+    "description": "Adds a directory tree grouping to the workspace switcher. Registered workspaces appear under their shared folders."
   }
 }
