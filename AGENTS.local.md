@@ -53,6 +53,8 @@ Check whether new behavior belongs in its own bundle.
   and keep type dependencies in sync.
 - Keep the factory free of side effects.
   Register resources in `apply` with `ctx.effect` or `ctx.on` and return cleanup functions.
+- Prefer recognizable icons for common action buttons, and use visible text only
+  when an icon alone would leave the action unclear.
 - Replace the placeholder icon with original artwork and update the title and description
   in all eight locale files before release.
 - Resolve every scaffold placeholder before release.
