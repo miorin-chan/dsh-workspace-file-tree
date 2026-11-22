@@ -39,6 +39,18 @@ Check whether new behavior belongs in its own bundle.
 - The client test loads the built module and checks the Cordis service lifecycle and projection output.
 - `docs/scripts/reflow` is the standalone documentation formatter and requires Python 3.11 or newer.
 
+## Reusing native DSH UI
+
+- Prefer native DSH components, behavior, theme tokens, and layouts from comparable screens
+  to reduce code and maintenance.
+- Prefer runtime reuse through supported slots, component factories,
+  or host-provided modules when performance is acceptable.
+  Let the host supply the implementation and write only the code needed to fill gaps in existing components
+  and extension points.
+- When statically importing or bundling official code or assets, annotate the reference
+  with the upstream package, version or commit, source path, and symbol name.
+  Keep applicable licenses and attribution so future updates can be traced to the source.
+
 ## Implementation
 
 - Keep the bundle independently installable and toggleable.
