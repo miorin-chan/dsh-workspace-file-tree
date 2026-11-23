@@ -87,7 +87,7 @@ Update `CHANGELOG.md` when releasing.
 
 - Run `pnpm install --frozen-lockfile` in a fresh checkout before `npm run check`.
   Use `npm run build` to regenerate artifacts after editing the source.
-- From the workspace root, run `node tools/new-dsh-plugin/cli.mjs --check plugins/<id>` to check the manifest,
+- From the workspace root, run `node tools/new-dsh-plugin/cli.mts --check plugins/<id>` to check the manifest,
   locale JSON, and the other scaffold files.
 - Use a disposable profile for installation tests.
   Distinguish fixture results from observations in the UI.
