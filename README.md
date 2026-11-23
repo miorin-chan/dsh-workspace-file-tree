@@ -5,10 +5,11 @@
 Workspace file tree groups registered workspaces by their shared directories in the workspace switcher.
 For example, `/team/api` and `/team/web` appear under `team` even if `/team` itself is unregistered.
 
-Use **Plugins → Add plugin** in DSH to install this directory.
+Run `pnpm install --frozen-lockfile` in a fresh checkout to install dependencies and build the plugin.
+Then select the directory in DSH under **Plugins → Add plugin**.
 With a compatible version of the workspace switcher plugin enabled, open the switcher and choose **Directory tree**
 from its grouping options.
 
-Run `pnpm install`, `npm run build`, and `npm run check` to build and verify the plugin locally.
+After preparing the checkout, use `npm run check` to verify the plugin locally.
 
 [Project documentation](docs/README.md)
