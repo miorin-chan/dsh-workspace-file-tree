@@ -11,7 +11,7 @@ try {
   if (oldWindow === undefined) delete globalThis.window
   else globalThis.window = oldWindow
 }
-assert.equal(registration.id, 'dsh-workspace-file-tree')
+assert.equal(registration.id, '@miorin/dsh-workspace-file-tree')
 const plugin = registration.factory((name) => {
   assert.fail(`Unexpected Client runtime import: ${name}`)
 })
@@ -53,7 +53,7 @@ test('waits for the optional service, handles localization, and unloads and re-r
     const grouping = groupings.get('workspace-file-tree')
     assert.ok(grouping)
     assert.equal(grouping.label(), 'Directory tree')
-    assert.equal(Object.keys(dictionaries.get(registration.id)).length, 8)
+    assert.equal(Object.keys(dictionaries.get('dsh-workspace-file-tree')).length, 8)
     setLanguage('zh')
     assert.equal(grouping.label(), '按文件目录')
 

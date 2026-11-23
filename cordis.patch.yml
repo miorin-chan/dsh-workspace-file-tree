@@ -2,4 +2,4 @@
 # package.json `dsh.client` and carries Workspace File Tree.
 - insert:
     - id: dsh-workspace-file-tree
-      name: 'dsh-workspace-file-tree'
+      name: '@miorin/dsh-workspace-file-tree'

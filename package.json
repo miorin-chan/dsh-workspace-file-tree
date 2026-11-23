@@ -1,5 +1,5 @@
 {
-  "name": "dsh-workspace-file-tree",
+  "name": "@miorin/dsh-workspace-file-tree",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
