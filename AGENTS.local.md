@@ -33,6 +33,9 @@ Check whether new behavior belongs in its own bundle.
 
 ## Structure
 
+`npm run build:tools` compiles `.mts` tooling in `scripts/` to adjacent ignored `.mjs` files.
+Node.js 22.18 or newer runs the `.test.mts` files directly.
+
 - [src/client/index.ts](src/client/index.ts) registers the grouping with DSH and owns its runtime translations.
 - [src/client/project.ts](src/client/project.ts) implements the directory projection specified
   in [the design](docs/DESIGN.md).

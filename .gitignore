@@ -1,3 +1,7 @@
 node_modules/
 /index.js
 /client.js
+
+# Compiled tooling
+/scripts/build.mjs
+/scripts/sync-types.mjs
